@@ -1,0 +1,96 @@
+// Colors
+$black: #000;
+$white: #fff;
+$orange: #ff6200;
+
+// Global Styles
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $white;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
+
+.btn-orange {
+  background-color: $orange;
+  color: $white;
+  &:hover {
+    background-color: darken($orange, 10%);
+  }
+}
+
+// Hero Section
+#hero {
+  height: 100vh;
+  background-color: $black;
+  background-image: url(images/dark-blue-bg-with-circles-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+// Service Section
+#services {
+  h2 {
+    color: $orange;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+// Packages Section
+#packages {
+  .card {
+    border: 1px solid $orange;
+  }
+
+  .card-title {
+    color: $orange;
+  }
+
+  .btn {
+    background-color: $orange;
+    &:hover {
+      background-color: darken($orange, 10%);
+    }
+  }
+}
+
+// Why Choose Us Section
+#why-choose-us {
+    background-color: $white;
+  
+    h2 {
+      color: $black;
+    }
+  
+    i {
+      color: $orange; // Font Awesome icon color
+    }
+  
+    h5 {
+      color: $orange;
+      margin-top: 1rem;
+    }
+  
+    p {
+      color: $black;
+    }
+  }
+  
+// Contact Section
+#contact {
+  background-color: $black;
+  .form-control {
+    border: 1px solid $orange;
+    &:focus {
+      border-color: $orange;
+      box-shadow: none;
+    }
+  }
+}
