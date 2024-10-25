@@ -73,4 +73,30 @@ h1, h2, h3, h4, h5 {
   box-shadow: none;
 }
 
+footer {
+  background-color: #000;
+  color: #fff;
+}
+footer h5 {
+  color: #ff6200;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .bi {
+  color: #ff6200;
+  margin-right: 5px;
+}
+footer p {
+  margin-bottom: 0.5rem;
+}
+footer .text-center p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
