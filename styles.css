@@ -1,102 +1,123 @@
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #fff;
-  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #fff;
+  font-family: "segoe UI", "Arial", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: bold;
-}
-
-.btn-orange {
-  background-color: #ff6200;
-  color: #fff;
-}
-.btn-orange:hover {
-  background-color: rgb(204, 78.4, 0);
-}
-
-#hero {
-  height: 100vh;
-  background-color: #000;
-  background-image: url(images/dark-blue-bg-with-circles-1.png);
+/* HERO SECTION */
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(to right, #000, #333);
+  color: white;
+  text-align: center;
+  background-image: url("https://tensketch.com/assets/hero-bg.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#services h2 {
-  color: #ff6200;
-}
-#services img {
-  width: 80px;
-  height: 80px;
+.hero-h1 {
+  font-size: 52px;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-#packages .card {
-  border: 1px solid #ff6200;
-}
-#packages .card-title {
-  color: #ff6200;
-}
-#packages .btn {
-  background-color: #ff6200;
-}
-#packages .btn:hover {
-  background-color: rgb(204, 78.4, 0);
+.hero-paragraph {
+  font-size: 18px;
 }
 
-#why-choose-us {
-  background-color: #fff;
-}
-#why-choose-us h2 {
-  color: #000;
-}
-#why-choose-us i {
-  color: #ff6200;
-}
-#why-choose-us h5 {
-  color: #ff6200;
-  margin-top: 1rem;
-}
-#why-choose-us p {
-  color: #000;
+.hero-btn {
+  margin-top: 30px;
+  padding: 10px 30px;
 }
 
-#contact {
-  background-color: #000;
-}
-#contact .form-control {
-  border: 1px solid #ff6200;
-}
-#contact .form-control:focus {
-  border-color: #ff6200;
-  box-shadow: none;
+/* OFFERS SECTION */
+.offer-card {
+  background: #fff;
+  box-shadow: 0px 0px 10px #aaa;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-footer {
-  background-color: #000;
+.offer-section {
+  margin-top: 80px;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+.offer-h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* WHY CHOOSE US */
+.why-us {
+  background: #222;
   color: #fff;
-}
-footer h5 {
-  color: #ff6200;
-}
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-footer .bi {
-  color: #ff6200;
-  margin-right: 5px;
-}
-footer p {
-  margin-bottom: 0.5rem;
-}
-footer .text-center p {
-  color: #fff;
-  font-size: 0.9rem;
+  padding: 80px 0;
+  margin-top: 80px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.why-us-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.col-md-3 {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* TESTIMONIALS     */
+.testimonial {
+  margin-top: 80px;
+}
+.testimonial-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.testi-box {
+  border-left: 4px solid #d4af37;
+  padding: 15px;
+  background-color: #fff6e5;
+}
+/* CALL TO ACTION */
+.btn-custom {
+  background-color: #d4af37;
+  color: white;
+}
+
+.highlight {
+  color: #d4af37 !important;
+  font-weight: bold;
+}
+
+.CTA {
+  background: #d4af37;
+  color: white;
+  padding: 60px 20px;
+  margin-top: 80px;
+  text-align: center;
+}
+.CTA-title {
+  font-size: 34px;
+}
+.CTA-text {
+  margin: 20px 0;
+}
+
+/* FOOTER*/
+.footer-section {
+  background: #111;
+  color: #ccc;
+  padding: 30px 10px;
+  margin-top: 40px;
+}
