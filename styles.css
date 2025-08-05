@@ -205,25 +205,3 @@ body {
   text-align: center;
 }
 
-/* RESPONSIVE STYLES */
-@media (max-width: 768px) {
-  .hero-h1 {
-    font-size: 36px;
-  }
-
-  .hero-paragraph {
-    font-size: 16px;
-  }
-
-  .portfolio-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .offer-h2,
-  .portfolio-title,
-  .why-us-title,
-  .testimonial-title,
-  .CTA-title {
-    font-size: 28px;
-  }
-}
