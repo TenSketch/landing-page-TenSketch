@@ -1,12 +1,13 @@
+/* BASE STYLES */
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   background: #fff;
-  font-family: "segoe UI", "Arial", sans-serif;
+  font-family: "Segoe UI", "Arial", sans-serif;
 }
 
-
+/* NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -36,7 +37,6 @@ body {
   min-height: 80vh;
   width: 100%;
   box-sizing: border-box;
-  overflow: hidden;
   color: white;
 }
 
@@ -56,24 +56,22 @@ body {
 }
 
 /* OFFERS SECTION */
+.offer-section {
+  margin-top: 80px;
+  padding: 0 15px;
+}
+
 .offer-card {
   background: #fff;
   box-shadow: 0px 0px 10px #aaa;
   border-radius: 10px;
   margin-bottom: 20px;
-}
-
-.offer-section {
-  margin-top: 80px;
-}
-
-.col-md-4 {
   padding: 20px;
 }
 
 .offer-h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 40px;
 }
 
@@ -81,24 +79,17 @@ body {
 .why-us {
   background: #222;
   color: #fff;
-  padding: 80px 0;
+  padding: 80px 20px;
   margin-top: 80px;
+  text-align: center;
 }
 
 .why-us-title {
-  font-size: 36px;
-  margin-bottom: 40px;
-  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
-.col-md-3 {
-  padding: 10px;
-  font-size: 14px;
-  text-align: center;
-}
 /* PORTFOLIO */
-
-
 .portfolio-section {
   padding: 80px 20px;
   background-color: #f9f9f9;
@@ -106,23 +97,21 @@ body {
 
 .portfolio-title {
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 800;
   margin-bottom: 40px;
-  color: #111111;
+  color: #111;
 }
 
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  padding: 0 15px;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 10px;
   box-sizing: border-box;
 }
-
-
 
 .portfolio-card {
   background: #fff;
@@ -134,7 +123,7 @@ body {
 
 .portfolio-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-card img {
@@ -150,16 +139,14 @@ body {
 .portfolio-info {
   padding: 20px;
   text-align: center;
-
 }
 
 .portfolio-info h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #222;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, serif;
   font-weight: 900;
-  
 }
 
 .portfolio-info p {
@@ -167,13 +154,13 @@ body {
   color: #555;
 }
 
-
-/* TESTIMONIALS     */
+/* TESTIMONIALS */
 .testimonial {
   margin-top: 80px;
+  padding: 0 15px;
 }
 .testimonial-title {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -183,10 +170,7 @@ body {
   background-color: #fff6e5;
 }
 
-
-
-
-/* CALL TO ACTION */
+/* CTA */
 .btn-custom {
   background-color: #d4af37;
   color: white;
@@ -204,17 +188,42 @@ body {
   margin-top: 80px;
   text-align: center;
 }
+
 .CTA-title {
-  font-size: 34px;
+  font-size: 32px;
 }
 .CTA-text {
   margin: 20px 0;
 }
 
-/* FOOTER*/
+/* FOOTER */
 .footer-section {
   background: #111;
   color: #ccc;
   padding: 30px 10px;
   margin-top: 40px;
+  text-align: center;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .hero-h1 {
+    font-size: 36px;
+  }
+
+  .hero-paragraph {
+    font-size: 16px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-h2,
+  .portfolio-title,
+  .why-us-title,
+  .testimonial-title,
+  .CTA-title {
+    font-size: 28px;
+  }
 }
