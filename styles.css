@@ -23,20 +23,21 @@ body {
 
 /* HERO SECTION */
 .hero {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background: linear-gradient(to right, #000, #333);
-  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 15px;
   text-align: center;
   background-image: url("https://media.istockphoto.com/id/1291950626/photo/abstract-colorful-lines-on-green-background.jpg?s=612x612&w=0&k=20&c=DsOrxA9t-H6yHuDTFPNd890e-dx9EtcijRjLB4j0D3c=");
   background-size: cover;
-  overflow:hidden;
-  box-sizing:border-box;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  min-height: 80vh;
   width: 100%;
-  
+  box-sizing: border-box;
+  overflow: hidden;
+  color: white;
 }
 
 .hero-h1 {
@@ -116,8 +117,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   padding: 0 15px;
-  box-sizing:border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
+
 
 
 .portfolio-card {
