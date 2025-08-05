@@ -31,12 +31,13 @@ body {
   background-image: url("https://media.istockphoto.com/id/1291950626/photo/abstract-colorful-lines-on-green-background.jpg?s=612x612&w=0&k=20&c=DsOrxA9t-H6yHuDTFPNd890e-dx9EtcijRjLB4j0D3c=");
   background-size: cover;
   overflow:hidden;
+  box-sizing:border-box;
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
+  
 }
-
 
 .hero-h1 {
   font-size: 52px;
@@ -115,6 +116,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
   padding: 0 15px;
+  box-sizing:border-box;
 }
 
 
